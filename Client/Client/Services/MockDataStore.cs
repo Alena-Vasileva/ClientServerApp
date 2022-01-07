@@ -10,7 +10,7 @@ namespace Client.Services
 {
     public class MockDataStore : IDataStore<Item>
     {
-        private static string url = "https://a42a-149-154-117-63.ngrok.io";
+        private static string url = "https://ecfb-149-154-117-63.ngrok.io";
         private HttpClient client = new HttpClient();
 
         public async Task<bool> AddItemAsync(Item item)
